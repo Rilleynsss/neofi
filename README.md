@@ -1,4 +1,4 @@
-# NeoFi it' a progressive expirience in Web3 develop
+# NeoFi it's a progressive expirience in Web3 develop
 ### This is my pet project without any libraries
 ### full responsove layout
 ### The site build version can be seen in the pinned link in the repository description.
