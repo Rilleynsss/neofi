@@ -1,0 +1,31 @@
+.partners {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--gray4);
+    padding: 2.5rem 0rem;
+    margin-top: 88px;
+}
+
+.partners_header {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 40px;
+}
+
+.partners_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.partners_list_item {
+    display: block;
+    padding: 0 36px;
+    width: min-content;
+}

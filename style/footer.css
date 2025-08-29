@@ -1,0 +1,91 @@
+
+.footer-rules{
+    grid-column: 2;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: var(--gray);
+    margin: 40px 0px;
+}
+.footer-content{
+    grid-column: 2;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px; 
+}
+.footer-logo{
+    width: 6.69rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+.footer-logo h3{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1.38rem;
+    text-align: center;
+    color: #fff;
+    margin-left: 10px;
+}
+.footer-nav_header{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    color: var(--white);
+    margin-bottom: 24px;
+}
+.footer-nav_list_item{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 0.88rem;
+    color: var(--gray);
+    padding: 4px 0;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.footer-nav_list_item:hover{
+    color:var(--green)
+}
+.footer-subscribe h4{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    color: #d8d8d8;
+    width: 198px;
+}
+.footer-subscribe form{
+    border-bottom: 1px solid var(--gray);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    margin-top: 20px;
+}
+.footer-subscribe input{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 0.88rem;
+    color: var(--gray);
+    background: none;
+    border: none;
+    padding: 11px;
+    outline: var(--green);
+} 
+.footer-form_btn{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.footer-form_btn:hover{
+    background:var(--green-hover) ;
+}

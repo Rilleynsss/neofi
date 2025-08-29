@@ -1,0 +1,92 @@
+.faq{
+    padding: 80px 0;
+}
+.faq-top{
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq_header{
+    margin: 20px 0;
+}
+.faq_subheader{
+    margin-bottom: 72px;
+}
+.faq-content{
+    grid-column: 2;
+}
+
+.faq-content-list_item_header{
+    display: flex;
+
+    justify-content: space-between;
+    cursor: pointer;
+}
+.faq-content-list_item{
+    border: 1px solid var(--gray3);
+    padding: 1rem 1.25rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    overflow: hidden;
+}
+.faq-content-list_item.faq_active{
+    overflow: visible;
+}
+.faq-content-list_item h5{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--white);
+}
+.faq-content-list_item_button{
+    width: 20px;
+    height: 20px;
+    border:none;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faq-content-list_item_button::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: var(--white);
+    top: 50%;
+    right: 0;
+}
+.faq-content-list_item_button::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width:  100%;
+    background-color: var(--white);
+    top: 50%;
+    right: 0;
+    transform: rotate(90deg);
+    transition: all .2s ease;
+}
+.faq_active .faq-content-list_item_button::after{
+    opacity: 0;
+}
+.faq-content-list_item p{
+    display: none;
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+.faq_active p{
+    display: block;
+    margin-top: 20px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 1.13rem;
+    line-height: 1.4;
+    color: var(--gray);
+    opacity:1;
+}

@@ -1,0 +1,100 @@
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--gray4);
+    padding: 5rem 0rem;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.testimonial_name{
+    margin-bottom: 20px;
+}
+.testimonial_header{
+    margin-bottom: 20px;
+}
+.testimonial_subheader{
+    width: 644px;
+    margin-bottom: 72px;
+}
+.testimonial-list{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: flex-start;
+    left: 0;
+}
+.testimonial-slider-wrapper{
+    position: relative;
+    width: 1920px;
+    overflow: hidden;
+
+    display: flex;
+}
+.testimonial-slider-wrapper::before{
+    content: '';
+    left: 0;
+    top: -5%;
+    background:linear-gradient(90deg, #0F0F0F ,#b3b3b300);
+    position: absolute;
+    width: 70px;
+    height: 110%;
+    z-index: 1;
+}
+.testimonial-slider-wrapper::after {
+    content: '';
+    right: 0;
+    top: -5%;
+    background: linear-gradient(270deg, #0F0F0F, #b3b3b300);
+    position: absolute;
+    width: 70px;
+    height: 110%;
+    z-index: 1;
+}
+.testimonial-list_item{
+    border-radius: 1rem;
+    padding: 2rem;
+    min-width: 23.31rem;
+    min-height: 12.75rem;
+    background: var(--black);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+.testimonial-list_item:before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    background: linear-gradient(300deg, #4D4D4D, #B3B3B3);
+    opacity: .6;
+    z-index: -1;
+    border-radius: 1rem;
+}
+.testimonial-list_item p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ededf2;
+}
+.testimonial-list_item h3{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 0.88rem;
+    color:var(--white);
+    margin-left: 1rem;
+}
+.testimonial-list_item span{
+    font-size: 0.75rem;
+    color: var(--gray2);
+}
+.testimonial-author{
+    display: flex;
+    align-items: center;
+}

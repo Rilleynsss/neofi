@@ -1,0 +1,26 @@
+.revolutionary{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--gray4);
+    padding: 40px 0;
+}
+.revolutionary_header{
+    margin: 20px 0;
+}
+.revolutionary_subheader{
+    margin-bottom: 20px;
+}
+.revolutionary_button{
+    padding: 0.88rem 1.5rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.13rem;
+    color: var(--black);
+    border: none;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.revolutionary_button:hover{
+    background-color: var(--green-hover);
+}

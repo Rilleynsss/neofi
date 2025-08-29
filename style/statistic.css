@@ -1,0 +1,42 @@
+.statistic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7.5rem 0;
+    background: var(--gray4);  
+}
+.statistic_name{
+    margin-bottom: 20px;
+}
+
+.statistic_header{
+    margin-bottom: 20px;
+}
+.statistic_subheader{
+    margin-bottom: 72px;
+    width: 644px;
+}
+.statistic-list{
+    display: flex;
+}
+.statistic-list_item{
+    margin: 0 66px;
+}
+.statistic-list_item h4{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2;
+    text-align: center;
+    color: var(--gray);
+}
+
+.statistic-list_item h4 span{
+    font-family: var(--font-family);
+    font-size: 3rem;
+    line-height: 1;
+    text-transform: capitalize;
+    color: var(--green);
+    
+}
+
